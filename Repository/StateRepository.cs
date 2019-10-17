@@ -43,7 +43,7 @@ namespace PdE_01_BrazilianCitiesAPI.Repository
 
         public void Update(State state)
         {
-            _dbContext.States.Remove(state);
+            _dbContext.States.Update(state);
             _dbContext.SaveChanges();
         }
     }
