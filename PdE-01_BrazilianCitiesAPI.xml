@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PdE-01_BrazilianCitiesAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PdE_01_BrazilianCitiesAPI.Controllers.StateController.GetById(System.Int64)">
+            <summary>
+            Get State by specified Id.
+            </summary>
+            <returns>Specified State</returns>
+            <response code="404">If not found the specified state</response>
+        </member>
+    </members>
+</doc>

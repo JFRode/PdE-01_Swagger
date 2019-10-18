@@ -1,8 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>PdE_01_BrazilianCitiesAPI</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\joaof\source\repos\PdE-01_BrazilianCitiesAPI\PdE-01_BrazilianCitiesAPI.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +17,8 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0-rc4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0-rc4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.0.0-rc4" />
   </ItemGroup>
-
 </Project>
