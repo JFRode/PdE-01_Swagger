@@ -3,6 +3,8 @@
 
 This is a simple API project used to know about the Swagger framework.
 
+[Look for more PdE here!](https://github.com/topics/pde-jfrode)
+
 **Technologies used**
 * ASP.NET Core
 * Entity Framework Core
