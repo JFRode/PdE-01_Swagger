@@ -1,11 +1,11 @@
 # PdE-01 Swagger
 **P**rojeto **d**e **E**studo (Study project)
 
-This is a simple API project used to know about the Swagger framework.
+This is a simple project to practice code, especially Swagger framework.
 
 [Look for more PdE here!](https://github.com/topics/pde-jfrode)
 
-**Technologies used**
+**Tech Stack**
 * ASP.NET Core
 * Entity Framework Core
 * [Swagger](https://swagger.io)
